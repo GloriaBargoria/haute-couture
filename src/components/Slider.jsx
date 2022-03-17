@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
@@ -69,8 +69,12 @@ const Button = styled.button`onClick={()=>handleClick("left")}
 //<a href="https://ibb.co/LY93BMC"><img src="https://i.ibb.co/fqrsZbC/woman-gb45a0bae1-1280.png" alt="woman-gb45a0bae1-1280" border="0"></a>
 
 const Slider = () => {
-    const handleClick = (direction) => {
 
+    const [slideIndex, setSlideIndex] = useState(0);
+    const handleClick = (direction) => {
+        if(direction==="left"){
+            setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2)
+        }
     }
   return (
     <Container>
@@ -104,6 +108,16 @@ const Slider = () => {
                 </ImgContainer>
                 <InfoContainer>
                     <Title>POPULAR SALE</Title>
+                    <Desc>DONT COMPROMISE ON STYLE!</Desc>
+                    <Button>SHOP NOW</Button>
+                </InfoContainer>
+            </Slide>
+            <Slide bg='#33fff9'>
+                <ImgContainer>
+                    <Image src="https://i.ibb.co/fqrsZbC/woman-gb45a0bae1-1280.png" alt='image'/>
+                </ImgContainer>
+                <InfoContainer>
+                    <Title>SUMMER SALE</Title>
                     <Desc>DONT COMPROMISE ON STYLE!</Desc>
                     <Button>SHOP NOW</Button>
                 </InfoContainer>
