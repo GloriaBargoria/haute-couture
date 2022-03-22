@@ -92,6 +92,16 @@ const Slider = () => {
                     <Button>SHOP NOW</Button>
                 </InfoContainer>
             </Slide>
+            <Slide bg='#33fff9'>
+                <ImgContainer>
+                    <Image src="https://i.ibb.co/fqrsZbC/woman-gb45a0bae1-1280.png" alt='image'/>
+                </ImgContainer>
+                <InfoContainer>
+                    <Title>SUMMER SALE</Title>
+                    <Desc>DONT COMPROMISE ON STYLE!</Desc>
+                    <Button>SHOP NOW</Button>
+                </InfoContainer>
+            </Slide>
             <Slide bg='blue'>
                 <ImgContainer>
                     <Image src="https://i.ibb.co/fqrsZbC/woman-gb45a0bae1-1280.png" alt='image'/>
