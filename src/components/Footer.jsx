@@ -89,9 +89,9 @@ import {
         <Left>
           <Logo>HAUTE COUTURE.</Logo>
           <Desc>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don&apos;t look even slightly believable.
+            Dress like you&apos;re already famous.
+            A classic never goes out of style, don&apos;t be basic
+            and dress like you want to be addressed.
           </Desc>
           <SocialContainer>
             <SocialIcon color="3B5999">
@@ -126,13 +126,13 @@ import {
         <Right>
           <Title>Contact</Title>
           <ContactItem>
-            <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+            <Room style={{marginRight:"10px"}}/> 622 Park Drive, 2nd Avenue Parklands
           </ContactItem>
           <ContactItem>
             <Phone style={{marginRight:"10px"}}/> +254 700 111 333
           </ContactItem>
           <ContactItem>
-            <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+            <MailOutline style={{marginRight:"10px"}} /> bargoriagloria@gmail.com
           </ContactItem>
           <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
         </Right>
